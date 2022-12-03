@@ -1,0 +1,69 @@
+/* EEEEEE */
+.contact__container {
+    max-width: 80%;
+    margin: 60px auto;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.wrapper input {
+    flex: 0.5;
+    margin-bottom: 40px;
+    border: none;
+    outline: none;
+    padding: 20px 10px;
+    background-color: #EEEEEE;
+}
+
+.wrapper :nth-child(1) {
+    margin-right: 20px;
+}
+
+.contact__container textarea {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #EEEEEE;
+}
+
+.contact__container textarea::placeholder {
+    color: #EEEEEE;
+}
+
+.contact__container h1 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.submitButton {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submitButton button {
+    outline: none;
+    background: transparent;
+    border: 2px solid #2ea3f2;
+    padding: 10px 20px;
+}
+
+
+@media screen and (max-width:750px) {
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wrapper :nth-child(1) {
+        margin-right: 0;
+    }
+
+    .wrapper input {
+        margin-bottom: 20px;
+    }
+}
