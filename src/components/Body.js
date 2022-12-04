@@ -1,4 +1,6 @@
+import About from "./About";
 import "./body.css";
+import Contact from "./Contact";
 const Body = () => {
   return (
     <div>
@@ -8,6 +10,8 @@ const Body = () => {
           alt=""
         />
       </div>
+      <About />
+      <Contact />
     </div>
   );
 };

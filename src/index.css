@@ -27,3 +27,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rightSection__container {
+  position: fixed;
+  top: 120px;
+  right: 0;
+  width: 350px;
+  height: 100vh;
+  color: rgb(148, 144, 144);
+  transform: translateX(200%);
+  transition: 1.5s;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightSection__container.active {
+  transform: translateX(0%);
+}
+
+.contact_container {
+  background-color: #141414;
+  padding: 30px 20px;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.rightSection__container a {
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  padding: 10px 30px;
+}
+
+@media screen and (max-width:960px) {
+  .rightSection__container {
+    top: 100px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .rightSection__container {
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+/* footer styling */
+
+.footer__container {
+  background-color: #333333;
+  color: rgb(167, 161, 161);
+  overflow: hidden;
+}
+
+.first__section {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons svg {
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.links a {
+  margin: 0 20px;
+}
+
+.footer__container p {
+  text-align: center;
+  background-color: #141414;
+  padding: 10px 0;
+}
+
+.footer__container a {
+  color: rgb(167, 161, 161);
+
+}
+
+/* styling the computer componet  */
+
+.theText {
+  margin-top: 120px;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: scroll;
+  padding: 20px;
+}
+
+.theText h1 {
+  margin: 40px 0;
+}
+
+.theText p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.Forex {
+  margin-top: 20px;
+  position: absolute;
+  right: 0;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  overflow: scroll;
+  padding: 20px;
+}
+
+.Forex h1 {
+  margin: 40px 0;
+}
