@@ -1,5 +1,3 @@
-import React from "react";
-
 // css styles is in the index.css file
 
 import { IoMdCall } from "react-icons/io";
@@ -24,6 +22,9 @@ const RightSection = ({ toggle, handleClosed }) => {
 
       <Link to="/" onClick={handleClosed}>
         Home
+      </Link>
+      <Link to="/ourmission" onClick={handleClosed}>
+        Our Mission
       </Link>
       <Link to="/goals" onClick={handleClosed}>
         What we do

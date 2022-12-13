@@ -14,14 +14,7 @@ const Computer = () => {
       >
         <div className="theText">
           <h1> ICT and Computer Training</h1>
-          <p>
-            ANCYPF has the mandate of transforming and raising the youth via
-            EMPOWERMENT and Kingdom PRIESTHOOD. Lorem ipsum dolor, sit amet
-            consectetur adipisicing elit. Ipsa corporis quia dolorum quidem
-            dicta mollitia voluptate unde iusto dolorem, at repellendus
-            necessitatibus nulla qui corrupti quis! Distinctio facere modi
-            quidem.
-          </p>
+          <p></p>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
             aliquam, cumque nisi quae doloribus, nesciunt modi nobis

@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Goals from "./pages/Goals";
 import { useState } from "react";
 import Footer from "./components/Footer";
+import OurMission from "./pages/OurMisson";
+import ScrollToTop from "../src/components/ScrollToTop";
 
 function App() {
   const [toggle, setToggle] = useState("false");
@@ -12,9 +14,11 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
         <Header toggle={toggle} setToggle={setToggle} />
         <Routes>
           <Route path="/" element={<Body />}></Route>
+          <Route path="/ourmission" element={<OurMission />}></Route>
           <Route path="/goals" element={<Goals />}></Route>
         </Routes>
         <RightSection toggle={toggle} handleClosed={handleClosed} />
