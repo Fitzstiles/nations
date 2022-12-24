@@ -8,11 +8,11 @@ const Intercessor = () => {
     <div className="position">
       <Parallax
         className="image"
-        bgImage="https://i0.wp.com/renewaljournal.com/wp-content/uploads/2017/04/sth-africa.jpg?resize=600%2C283&ssl=1"
+        bgImage="https://www.aciafrica.org/image/ghanachristians122020_1607376310.jpg"
         strength={200}
         bgImageStyle={{ height: "100vh", width: "100%" }}
       >
-        <div className="Forex">
+        <div className="intersessor">
           <h1> School of Intercessors</h1>
           <p>
             At ANCYPF We offer one of the best Forex Trading courses from

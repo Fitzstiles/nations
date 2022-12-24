@@ -15,23 +15,16 @@ const Forex = () => {
         <div className="Forex">
           <h1> Forex Trading Courses</h1>
           <p>
-            At ANCYPF We offer one of the best Forex Trading courses from
-            beginner to advanced . Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Ipsa corporis quia dolorum quidem dicta mollitia
-            voluptate unde iusto dolorem, at repellendus necessitatibus nulla
-            qui corrupti quis! Distinctio facere modi quidem.
+            At ANCYPF you'll receive Trainings on how to trade. our skilled
+            professional traders will guide and take you from beginner to an
+            advanced professional forex trader
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            aliquam, cumque nisi quae doloribus, nesciunt modi nobis
-            reprehenderit, quam debitis incidunt assumenda veritatis soluta odio
-            unde dolorum voluptatibus! Voluptatum, nam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-            provident tempore iste sint dolore voluptates aliquid repudiandae
-            quia, nisi veritatis possimus odit voluptas doloremque minus
-            corporis, rerum facere nulla odio?
+            This is done at ALL NATIONS CHRISTIAN YOUTH PRAYER INTERCESSOR
+            FOUNDATION to ensure that christian youths are nutured and raised in
+            the way of the Lord as well as being equiped with the necessary
+            skills so they don't go seeking it in the wrong places or being
+            influeced by their peers.
           </p>
         </div>
       </Parallax>

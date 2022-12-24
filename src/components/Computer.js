@@ -16,16 +16,9 @@ const Computer = () => {
           <h1> ICT and Computer Training</h1>
           <p></p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            aliquam, cumque nisi quae doloribus, nesciunt modi nobis
-            reprehenderit, quam debitis incidunt assumenda veritatis soluta odio
-            unde dolorum voluptatibus! Voluptatum, nam.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
-            provident tempore iste sint dolore voluptates aliquid repudiandae
-            quia, nisi veritatis possimus odit voluptas doloremque minus
-            corporis, rerum facere nulla odio?
+            ANCYPF is equiped with highly trained computer operators who will be
+            responsible for teaching and equiping the youth with the needed
+            computer skills
           </p>
         </div>
       </Parallax>

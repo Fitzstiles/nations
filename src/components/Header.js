@@ -9,7 +9,7 @@ const Header = ({ toggle, setToggle }) => {
       <div className="header-container">
         <div className="logo">
           <Link to="/">
-            <img src="./images/logoo.jpeg" alt="" />
+            <img src="./images/logo.jpg" alt="" />
           </Link>
         </div>
 
@@ -19,7 +19,6 @@ const Header = ({ toggle, setToggle }) => {
       </div>
       <div className="donate">
         <h2>
-          <a href="/">JOIN US</a> IN TRANSFORMING YOUNG PEOPLE.
           <a href="/">DONATE</a> TO ANCYPIF TODAY
         </h2>
       </div>
