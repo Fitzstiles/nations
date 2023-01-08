@@ -1,4 +1,4 @@
-header {
+.mainHeader__container {
     position: fixed;
     top: 0;
     left: 0;
@@ -9,6 +9,8 @@ header {
     padding-bottom: 10px;
 }
 
+
+
 .header-container {
     display: flex;
     align-items: center;
@@ -16,7 +18,17 @@ header {
     max-width: 80%;
     margin: auto;
     margin-top: 20px;
-    transform: .6s;
+    transition: .2s;
+}
+
+.lo {
+    margin-top: 5px;
+}
+
+.margin {
+    transition: .6s;
+    background-color: yellow;
+    margin: 0;
 }
 
 .hamburger__menu svg {
@@ -30,6 +42,11 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 10px;
+}
+
+.donate p {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .donate a {
@@ -49,18 +66,6 @@ header {
     object-fit: cover;
 }
 
-/* @media screen and (max-width:890px) {
-    .donate h2 {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width:890px) {
-    .donate h2 {
-
-        font-size: 10px;
-    }
-} */
 
 @media screen and (max-width:500px) {
     .header-container {

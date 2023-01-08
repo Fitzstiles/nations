@@ -1,0 +1,22 @@
+.carousel .slider-wrapper {
+    width: 90%;
+}
+
+/* .carousel .thumb {
+    display: none;
+} */
+
+.carousel {
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+@media screen and (min-width:800px) {
+    .carousel .slider-wrapper {
+        width: 40%;
+    }
+}

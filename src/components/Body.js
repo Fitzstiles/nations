@@ -1,16 +1,16 @@
 import About from "./About";
 import "./body.css";
+import Slider from "./Carousel";
 import Contact from "./Contact";
+import HeroSection from "./HeroSection";
 const Body = () => {
   return (
-    <div>
+    <div className="body__container">
       <div className="img__container">
-        <img
-          src="https://i0.wp.com/epthinktank.eu/wp-content/uploads/2019/04/eprs-briefing-635544-deliveries-youth-empowerment-final.jpg?fit=1000%2C666&ssl=1"
-          alt=""
-        />
+        <HeroSection />
       </div>
       <About />
+      <Slider />
       <Contact />
     </div>
   );
