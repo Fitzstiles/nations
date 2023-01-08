@@ -5,10 +5,8 @@ import Contact from "./Contact";
 import HeroSection from "./HeroSection";
 const Body = () => {
   return (
-    <div className="body__container">
-      <div className="img__container">
-        <HeroSection />
-      </div>
+    <div>
+      <HeroSection />
       <About />
       <Slider />
       <Contact />
