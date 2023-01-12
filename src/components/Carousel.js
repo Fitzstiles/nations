@@ -37,7 +37,7 @@ export default function Slider() {
   ];
   return (
     <>
-      <h3 className="header">HOW FAR WE'VE COME</h3>
+      <h3 className="header">HOW FAR WE HAVE GONE</h3>
       <Carousel
         autoPlay={true}
         infiniteLoop={true}

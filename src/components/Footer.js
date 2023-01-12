@@ -16,7 +16,12 @@ const Footer = () => {
         </div>
         <div className="icons">
           <MdFacebook />
-          <RiWhatsappFill />
+          <a
+            href="https://api.whatsapp.com/send?phone=2349158623986"
+            target="blank"
+          >
+            <RiWhatsappFill />
+          </a>
         </div>
       </div>
     </div>

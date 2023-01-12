@@ -9,11 +9,14 @@ const HeroSection = () => {
         />
       </div>
       <div className="text__container">
-        <h1>ANCYPIF</h1>
-        <p>
-          has the mandate of transforming and raising the youths via EMPOWERMENT
-          and PRIESTHOOD
-        </p>
+        <div className="text__area">
+          <p>
+            Weather you plant or you water, <br /> At <span>ANCYPIF</span>{" "}
+            transforming and raising youths through empowerment and royal
+            priesthood is the goal
+          </p>
+          <a href="/">Donate</a>
+        </div>
       </div>
     </div>
   );

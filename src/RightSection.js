@@ -13,7 +13,7 @@ const RightSection = ({ toggle, handleClosed }) => {
       <div className="contact_container">
         <div className="contact">
           <IoMdCall />
-          <p>+234 1234 56678</p>
+          <p>+234 9158623986</p>
         </div>
         <div className="contact">
           <MdOutlineMail /> 123@gmail.com
